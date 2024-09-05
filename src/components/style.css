@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 30px 50px;
+    background-color: rgb(209 250 229);
+
+    gap: 60px
+}
+
+.navbar-brand {
+    font-size: 30px;
+    color: #38a89d;
+    padding-left: 80px;
+    font-weight: 600;
+}
+
+.navbar-brand span {
+    color: black;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.navbar-nav li a:hover {
+    color: #38a89d;
+}
+
+
+.intro-section {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    background-color: rgb(209 250 229);
+}
+
+.intro-text {
+    width: 500px;
+    padding-left: 70px;
+
+}
+
+.intro-text h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.intro-text p {
+    font-size: 24px;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #6c757d;
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #38a89d;
+}
+
+.bi-github,
+.bi-linkedin,
+.bi-twitter {
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.intro-image img {
+    max-width: 40%;
+    height: 600px;
+    margin-left: 400px;
+}
+
+.techtag h2 {
+    margin-top: 70px;
+    font-size: 30px;
+    margin-left: 100px;
+    text-align: start;
+}
+
+
+.tech-stack {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 50vh;
+
+}
+
+.stack-item-content {
+    background-color: white;
+    padding: 20px;
+    flex: 1;
+    margin-top: 50px;
+    margin-left: 80px;
+
+}
+
+.fa-brands {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #10b981;
+}
+
+.stack-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.stack-item p {
+    font-size: 14px;
+    color: rgb(100 116 139);
+    line-height: 20px;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    height: 60vh;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img {
+    max-width: 50%;
+    height: auto;
+}
+
+.text-section {
+    flex: 1;
+    max-width: 50%;
+}
+
+.text-section h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 60px;
+}
+
+.text-section p {
+    font-size: 1em;
+    color: #666;
+    line-height: 30px;
+
+}
+
+.projects {
+
+    margin: 50px auto;
+    background-color: #f8f8f8;
+}
+
+.projects h2 {
+
+    font-size: 2em;
+    margin-bottom: 50px;
+    margin-left: 70px;
+    padding: 0px 50px;
+    text-align: start;
+}
+
+.project-container {
+
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding: 0px 50px;
+
+}
+
+.project {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 90%;
+    margin-left: 70px;
+
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    margin: 30px 0px 10px 10px;
+    /* padding:10px 0px 10px 0px; */
+    font-weight: 500;
+
+}
+
+.project .description {
+    margin: 15px;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 1rem;
+    color: rgb(51 65 85);
+    text-align: start;
+}
+
+.project-icons {
+    display: flex;
+    justify-content: start;
+    padding: 15px;
+}
+
+.project-icons a {
+    text-decoration: none;
+}
+
+.project-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.bi-globe2 {
+    color: black;
+    font-size: 24px;
+    margin-right: 18px;
+}
+
+.bi-github {
+    color: white;
+    font-size: 24px;
+    padding: 5px;
+}
+
+.btn {
+    background-color: rgb(60, 55, 55);
+}
